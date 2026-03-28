@@ -52,7 +52,7 @@ x_treino, d_treino = carregar_dados('dados2-tra.txt')
 x_teste, d_teste = carregar_dados('dados2-tst.txt')
 
 taxa_aprendizado = 0.01
-max_epocas = 30
+max_epocas = 50
 tolerancia = 0.001
 
 pesos_salvos = {}
